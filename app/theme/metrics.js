@@ -23,8 +23,6 @@ export default {
   text: {
     letterSpacing: scale(0.25),
   },
-  statusBarHeight,
-  navigationHeaderHeight,
   hitSlop,
   screen,
 }

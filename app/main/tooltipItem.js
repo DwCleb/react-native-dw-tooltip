@@ -16,7 +16,7 @@ import {
   ViewPropTypes,
 } from 'react-native'
 import PropTypes from 'prop-types'
-import { scale } from '../../theme/metrics'
+import { scale } from '../theme/metrics'
 
 export type Label = string | () => React.Node;
 export const labelPropType = PropTypes.oneOfType([

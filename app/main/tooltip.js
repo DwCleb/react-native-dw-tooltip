@@ -23,8 +23,8 @@ import invariant from 'invariant'
 
 import TooltipItem, { type Label, labelPropType } from './tooltipItem'
 
-import metrics,{ scale } from '../../theme/metrics'
-import colors from '../../theme/colors'
+import metrics,{ scale } from '../theme/metrics'
+import colors from '../theme/colors'
 
 type Props = {
   buttonComponent: React.Node,

@@ -8,7 +8,14 @@ Enjoy it!
 ## <a name="section-getting-started"> Getting Started </a>
 
 
-### Installing (NOT AVAIBLE YET)
+### Exemple 
+
+<p align="center">
+  <video src="video/tooltip.mov" alt="Exemple" width="200" height="400">
+</p>
+
+
+### Installing 
 ```
 $ npm install --save react-native-dw-tooltip
 ```
@@ -20,7 +27,7 @@ $ npm install --save react-native-dw-tooltip
 | children              | `React.Node`        | `false` | -         | A component that will be rendered inside the `Tooltip`. |
 | label                 | `String`            | `true`  | -         | A string that be message content. |
 | lightIcon             | `Boolean`           | `false` | "false"   | Color for icon tip. |
-| position              | `"top" | "bottom"`  | `false` | "bottom"  | Position that tooltip will be render |
+| position              | `'top' or 'bottom'`  | `false` | "bottom"  | Position that tooltip will be render |
 | tooltipContainerStyle | `TStyle`            | `false` | -         | Style of the container of the entire tooltip label. |
 | triangleOffset        | `Number`            | `false` | 0         | Number of pixels to offset triangle from center. Positive numbers will push right. Negative Numbers will push left. |
 | style                 | `TStyle`            | `false` | -         | Tooltip global container|
