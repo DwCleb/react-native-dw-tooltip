@@ -123,7 +123,7 @@ export default class Tooltip extends Component<Props> {
   }
 
   renderPopoverTooltip() {
-    const { triangleOffset, contentStyle } = this.props
+    const { triangleOffset, contentStyle, overlayStyle } = this.props
     return (
       <DWTooltip
         ref={ref => {
@@ -137,7 +137,7 @@ export default class Tooltip extends Component<Props> {
         setBelow={this._setTooltipBelow()}
         // labelContainerStyle require an object param, or will broken the component, can't pass {styles.CLASS}.
         labelContainerStyle={styles.labelContainerStyle}
-        overlayStyle={styles.overlayStyle}
+        overlayStyle={styles.overlayStyle || overlayStyle}
         onLayout={this.props.onLayout}
       />
     )

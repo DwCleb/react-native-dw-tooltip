@@ -11,7 +11,7 @@ Enjoy it!
 ### Exemple 
 
 <p align="center">
-  <video src="video/tooltip.mov" alt="Exemple" width="200" height="400">
+  [![Exemple](https://i.imgur.com/vKb2F1B.png)](./video/tooltip.mov)
 </p>
 
 
