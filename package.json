@@ -1,6 +1,6 @@
 {
   "name": "react-native-dw-tooltip",
-  "version": "0.0.2",
+  "version": "0.1.0",
   "description": "This is a tooltip component compatible with te RN >= 0.51.0.",
   "main": "app/main/index.js",
   "scripts": {
