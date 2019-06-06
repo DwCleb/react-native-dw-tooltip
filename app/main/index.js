@@ -33,6 +33,7 @@ export default class Tooltip extends Component<Props> {
     style: PropTypes.any,
     position: PropTypes.string,
     lightIcon: PropTypes.bool,
+    overlayStyle: PropTypes.any,
   }
   /**
    * @param {string} position - top/bottom
@@ -137,7 +138,7 @@ export default class Tooltip extends Component<Props> {
         setBelow={this._setTooltipBelow()}
         // labelContainerStyle require an object param, or will broken the component, can't pass {styles.CLASS}.
         labelContainerStyle={styles.labelContainerStyle}
-        overlayStyle={styles.overlayStyle || overlayStyle}
+        overlayStyle={(overlayStyle !== null) ? overlayStyle : styles.overlayStyle}
         onLayout={this.props.onLayout}
       />
     )
